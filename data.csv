@@ -1,21 +1,31 @@
-Title,Artist,Key,BPM,Popularity,Duration_MS,Explicit,Release_Date,Album_Name
-APT.,ROSE & Bruno Mars,5A,149,88,169917,False,2024-10-18,APT.
-Die With A Smile,Lady Gaga & Bruno Mars,11A,158,92,251667,False,2024-08-16,Die With A Smile
-Birds Of A Feather,Billie Eilish,10B,105,95,210373,False,2024-05-17,HIT ME HARD AND SOFT
-Ordinary,Alex Warren,10B,112,92,186964,False,2024-09-26,"You'll Be Alright, Kid (Chapter 1)"
-Beautiful Things,Benson Boone,6B,105,89,180304,False,2024-04-05,Fireworks & Rollerblades
-Lose Control,Teddy Swims,11B,160,89,210688,False,2023-09-15,I've Tried Everything But Therapy (Part 1)
-That's So True,Gracie Abrams,3B,109,91,166300,True,2024-10-18,The Secret of Us (Deluxe)
-Luther,Kendrick Lamar & SZA,10B,138,86,177598,False,2024-11-21,GNX
-Espresso,Sabrina Carpenter,8B,104,88,175459,True,2024-08-23,Short n' Sweet
-Golden,HUNTR/X: EJAE Audrey Nuna & REI AMI,9A,123,96,194607,False,2025-06-20,KPop Demon Hunters (Soundtrack from the Netflix Film)
-Not Like Us,Kendrick Lamar,3B,101,88,274192,True,2024-05-04,Not Like Us
-Timeless,The Weeknd & Playboi Carti,10A,120,91,256000,True,2025-01-31,Hurry Up Tomorrow
-Wildflower,Billie Eilish,11A,148,93,261466,False,2024-05-17,HIT ME HARD AND SOFT
-DTMF,Bad Bunny,6A,136,100,237117,True,2025-01-05,DeBÍ TiRAR MáS FOToS
-A Bar Song (Tipsy),Shaboozey,11B,81,82,171291,True,2024-05-31,"Where I've Been, Isn't Where I'm Going"
-Sailor Song,Gigi Perez,1B,95,89,211978,False,2025-04-25,"At The Beach, In Every Life"
-Messy,Lola Young,11B,111,84,284066,True,2024-06-21,This Wasn't Meant For You Anyway
-Good Luck Babe!,Chappel Roan,10A,117,91,218423,False,2024-04-05,"Good Luck, Babe!"
-Si Antes Te Hubiera Conocido,Karol G,1B,128,86,195824,False,2025-06-20,Tropicoqueta
-Taste,Sabrina Carpenter,5B,113,88,157279,False,2024-08-23,Short n' Sweet
+Title,Artist,Key,BPM,Popularity,Duration_MS,Explicit,Release_Date,Album_Name,Hit
+APT.,ROSE & Bruno Mars,5A,149,88,169917,False,2024-10-18,APT.,1
+Die With A Smile,Lady Gaga & Bruno Mars,11A,158,92,251667,False,2024-08-16,Die With A Smile,1
+Birds Of A Feather,Billie Eilish,10B,105,95,210373,False,2024-05-17,HIT ME HARD AND SOFT,1
+Ordinary,Alex Warren,10B,112,92,186964,False,2024-09-26,"You'll Be Alright, Kid (Chapter 1)",1
+Beautiful Things,Benson Boone,6B,105,90,180304,False,2024-04-05,Fireworks & Rollerblades,1
+Lose Control,Teddy Swims,11B,160,90,210688,False,2023-09-15,I've Tried Everything But Therapy (Part 1),1
+That's So True,Gracie Abrams,3B,109,91,166300,True,2024-10-18,The Secret of Us (Deluxe),1
+Luther,Kendrick Lamar & SZA,10B,138,87,177598,False,2024-11-21,GNX,1
+Espresso,Sabrina Carpenter,8B,104,88,175459,True,2024-08-23,Short n' Sweet,1
+Golden,HUNTR/X: EJAE Audrey Nuna & REI AMI,9A,123,96,194607,False,2025-06-20,KPop Demon Hunters (Soundtrack from the Netflix Film),1
+Not Like Us,Kendrick Lamar,3B,101,89,274192,True,2024-05-04,Not Like Us,1
+Timeless,The Weeknd & Playboi Carti,10A,120,91,256000,True,2025-01-31,Hurry Up Tomorrow,1
+Wildflower,Billie Eilish,11A,148,93,261466,False,2024-05-17,HIT ME HARD AND SOFT,1
+DTMF,Bad Bunny,6A,136,100,237117,True,2025-01-05,DeBÍ TiRAR MáS FOToS,1
+A Bar Song (Tipsy),Shaboozey,11B,81,82,171291,True,2024-05-31,"Where I've Been, Isn't Where I'm Going",1
+Sailor Song,Gigi Perez,1B,95,90,211978,False,2025-04-25,"At The Beach, In Every Life",1
+Messy,Lola Young,11B,111,84,284066,True,2024-06-21,This Wasn't Meant For You Anyway,1
+Good Luck Babe!,Chappel Roan,10A,117,91,218423,False,2024-04-05,"Good Luck, Babe!",1
+Si Antes Te Hubiera Conocido,Karol G,1B,128,86,195824,False,2025-06-20,Tropicoqueta,1
+Taste,Sabrina Carpenter,5B,113,88,157279,False,2024-08-23,Short n' Sweet,1
+Where Is My Mind?,Pixies,12B,81,81,234973,False,1988-03-21,Surfer Rosa (2007 Remaster),0
+Karma Police,Radiohead,9B,75,82,264066,False,1997-05-28,OK Computer,0
+Wonderwall,Oasis,10B,175,82,258773,False,1995,(What's The Story) Morning Glory? (Deluxe Remastered Edition),0
+Von dutch,Charli xcx,6B,130,81,164284,True,2024-06-07,BRAT,0
+Rosanna,Toto,6A,81,79,330943,False,1982-04-08,Toto IV,0
+Starman,David Bowie,7B,100,82,254293,False,1972-06-06,The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster),0
+Somebody Told Me,The Killers,3A,138,86,197200,False,2004,Hot Fuss,0
+Clint Eastwood,Gorillaz,3A,168,76,340920,True,2001,Gorillaz,0
+Welcome to the Black Parade,My Chemical Romance,10B,97,82,311106,False,2006-10-20,The Black Parade,0
+Count Me Out,Kendrick Lamar,9A,134,77,283642,True,2022-05-13,Mr. Morale & The Big Steppers,0

@@ -17,17 +17,21 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-    client_id=os.getenv('SPOTIFY_CLIENT_ID'), 
-    client_secret=os.getenv('SPOTIFY_CLIENT_SECRET')
-))
+client_id = os.getenv('SPOTIFY_CLIENT_ID')
+client_secret = os.getenv('SPOTIFY_CLIENT_SECRET')
+
+if not client_id or not client_secret:
+    st.error("Spotify credentials not found. Please check your .env file.")
+    st.stop()
+
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
 
 if 'dataset' not in st.session_state: st.session_state.dataset = []
 if 'search_results' not in st.session_state: st.session_state.search_results = []
 
 def add_track(track_data):
     st.session_state.dataset.append(track_data)
-    st.session_state.search_results = []
+    # Removed clearing search_results to allow multiple additions
 
 st.title("Track Selector")
 
@@ -40,8 +44,12 @@ with st.form("search_form", border=False):
 
     if submitted and query:
         with st.spinner("Searching"):
-            results = sp.search(q=query, type='track', limit=5)
-            st.session_state.search_results = results['tracks']['items']
+            try:
+                results = sp.search(q=query, type='track', limit=5)
+                st.session_state.search_results = results['tracks']['items']
+            except Exception as e:
+                st.error(f"An error occurred during search: {e}")
+                st.session_state.search_results = []
 
 if st.session_state.search_results:
     st.write("### Results:")
